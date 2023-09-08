@@ -29,7 +29,7 @@ struct ContentView: View {
                     if let cents = Int(centsInput) {
                         resultSentence = printUSCoins(cents)
                     } else {
-                        resultSentence = "Invalid input. Please enter a valid number of cents."
+                        resultSentence = "Invalid input. Please enter a valid number of cents :)"
                     }
                 }
                         }
